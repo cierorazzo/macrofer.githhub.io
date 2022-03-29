@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* HEADER INDEX */
+header{
+    background-color: rgba(0, 128, 255, 0.9);
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    
+}
+
+.containerHeader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.containerLogoIndex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogoIndex img{
+    width: 80px;
+}
+
+.containerNav{
+    position: relative;
+    height: 100%;
+    display: flex;
+
+}
+
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 20px;
+    list-style: none;  
+}
+
+.containerNav ul li a{
+    font-size: 14px;
+    background-color: rgba(0, 128, 255, 0.9);
+    padding: 10px 30px;
+    color: black;
+    border-radius: 20px;
+    border: 0.1px solid rgba(10, 63, 117, 0.9);
+    display: flex;
+    position: relative;  
+}
+.containerNav ul li a:hover{
+    box-shadow: 1px 1px 30px -5px #EEEEEE;
+}
+
+
+/* MAIN INDEX */
+.bodyIndex{
+    background-image: url(../img/fondoRegistro.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.containerMain{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.containerSubMain{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100;
+}
+
+.containerInfo{
+    max-width: 40%;
+    margin-top: 40px;
+    z-index: 2;
+}
+
+.containerInfo h1{
+    max-width: 400px;
+    font-size: 55px;
+    font-weight: 1000;
+    color: black;
+}
+
+.containerInfo h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #424242;
+    margin-top: -20px;
+}
+
+.containerInfo p{
+    margin-top: 10px;
+    color: whitesmoke;
+    border: #212121;
+}
+
+.containerInfo input{
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: whitesmoke;
+    background-color: #757575;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #BDBDBD;
+    cursor: pointer;
+    transition: box-shadow 200ms;
+}
+
+.containerInfo input:hover{
+    box-shadow: 1px 1px 30px -5px #757575;
+}
+
+.containerVector{
+    position: relative;
+}
+
+.containerVector img{
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+    width: 500px;
+}
+
+/* FOOTER INDEX*/
+
+footer{
+    width: 100%;
+    padding: 1px 0px;
+    background-color: rgba(0, 128, 255, 0.9);
+}
+
+.containerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.boxFooter{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.boxFooter .logo {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.boxFooter .logo img{
+    width: 80px;
+}
+
+.boxFooter .terminos{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.boxFooter h2{
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.boxFooter a{
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.boxFooter a:hover{
+    opacity: 0.8;
+}
+
+.boxFooter a .fab{
+    font-size: 25px;
+}
+
+.boxDerechosReservados{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.boxDerechosReservados p{
+    margin-top: 20px;
+    color: black;
+}
+
+.boxDerechosReservados hr{
+    height: 1px;
+    background-color: black;
+}
+
+/* INICIO.HTML */
+
+/* HEADER INICIO */
+.containerBanner{
+    max-width: 1225px;
+    height: 62%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.containerLogoInicio{
+    height: 160%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1px;
+}
+
+.containerLogoInicio img{
+    width: 80px;
+}
+
+.containerUsuarioCarrito ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.containerBuscador nav{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerBanner .buscador{
+    width: 700px;
+}
+
+.containerBoton nav{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-top: -40px;
+    height: -40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerBoton ul li a{
+    font-size: 14px;
+    background-color: rgba(0, 128, 255, 0.9);
+    padding: 8px 10px;
+    color: black;
+    border-radius: 20px;
+    border: 0.1px solid rgba(10, 63, 117, 0.9);
+
+}
+.containerBoton ul li a:hover{
+    box-shadow: 1px 1px 30px -5px #EEEEEE;
+}
+
+.containerBoton ul li a:hover{
+    background-color: rgba(0, 128, 255, 0.9);
+}
+
+/* MAIN INICIO */
+.bodyInicio{
+    background-color: whitesmoke;
+}
+
+.containerSlider{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 10px;
+}
+
+input[type=radio]{
+    display: none;
+}
+.containerSliderCards{
+    max-width: 100%;
+    width: 800px;
+    max-height: 100%;
+    height: 400px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    position: relative;
+    width: 100%;
+    height: 80%;
+} 
+.card{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.cards .card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+
+#item-1:checked ~ .cards #selector-2,
+#item-2:checked ~ .cards #selector-1
+{
+    transform:translateX(-30%) scale(0.8);
+}
+/* INICIA SESION HTML */
+.bodyRegister{
+    background-image: url(../img/fondoRegistro.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.mainRegister{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+
+}
+.containerMainRegister{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    padding-top: 10%;
+}
+.cajaTrasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 128, 255, 0.5);
+}
+.cajaTrasera div{
+    margin: 100px 40px;
+    margin-left: 400px;
+    color: white;
+    transition: all 500ms;
+}
+.cajaTrasera div p, .cajaTrasera div button{
+    margin-top: 30px;
+}
+.cajaTrasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+.cajaTrasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: all 300ms;
+}
+.cajaTrasera button a{
+    color: white;
+}
+.cajaTrasera button a:hover{
+    background-color: #fff;
+    color: white;
+    background: transparent;
+}
+
+/* Formularios */
+.containerLogin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+}
+.containerLogin form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+}
+.containerLogin form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #46A2FD;
+}
+.containerLogin form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+.formularioLogin button{
+    border: 2px solid black;
+}
+.containerLogin form button {
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 16px;
+    background: #46A2FD;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.containerLogin form button a{
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Trabajando en el Responsive Design*/
+@media screen and(max-width:850px) {
+    main{
+        margin-top: 50px;
+    }
+    .cajaTrasera{
+        max-width: 350px;
+    }
+}
+
+/*REGISTRARSE HTML */
+.bodyRegistrarse{
+    background-image: url(../img/fondoRegistro.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formRegistrarse{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    height: 600px;
+
+}
+.formRegistrarse form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+.formRegistrarse form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #46A2FD;
+}
+.formRegistrarse form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+    border-radius: 20px;
+}
+.formRegistrarse form button {
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 16px;
+    background: #46A2FD;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+}
+.formRegistrarse form button a{
+    color: white;
+    cursor: pointer;
+    outline: none;
+}   
+
+/* SOBRE NOSOTROS HTML*/
+.sobreNosotros{
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../img/fondoRegistro.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.mainSobreNosotros{
+    font-size: font-family: 'Poppins', sans-serif;;
+    padding:200px
+}
+/* COMO TRABAJAMOS */
+.comoTrabajamos{
+    display: relative;
+}
